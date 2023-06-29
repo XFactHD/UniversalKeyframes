@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="LGPL v3"
+issueTrackerURL="https://github.com/XFactHD/UniversalKeyframes"
+
+[[mods]]
+    modId="universalkeyframes"
+    version="${mod_version}"
+    displayName="UniversalKeyframes"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/universalkeyframes"
+    #logoFile="logo.png"
+    authors="XFactHD"
+    displayTest="IGNORE_ALL_VERSION"
+    description=''''''
+
+[[dependencies.universalkeyframes]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="${forge_version_range}" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.universalkeyframes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
